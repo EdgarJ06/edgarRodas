@@ -1,0 +1,26 @@
+[
+    {
+        "name": "name",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required"
+    },
+    {
+        "name": "email",
+        "dbType": "string",
+        "htmlType": "email",
+        "validations": "required|email|unique:clients,email"
+    },
+    {
+        "name": "phone",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "nullable"
+    },
+    {
+        "name": "closed_deal",
+        "dbType": "boolean",
+        "htmlType": "checkbox",
+        "validations": ""
+    }
+]
